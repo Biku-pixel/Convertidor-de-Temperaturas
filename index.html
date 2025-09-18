@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h2>TEMPERATURA</h2>
+    </header>
+    <section>
+        <h2>CONVERSACIONES DE TEMPERATURA</h2>
+        <form action="" onsubmit="return false">
+            <label for="">TEMPERATURA EN C</label>
+            <input type="text" id="txt-c" />
+            <button class="btn" id="btn-convertir" onclick="convertir()">Convertir</button>
+            <section>
+                <h3>Resultados</h3>
+                <ul>
+                    <li>Fahrenheit <span id="fa">0</span></li>
+                    <li>Kelvin <span id="ke">0</span></li>
+                    <li>Rankine <span id="ra">0</span></li>
+                </ul>
+            </section>
+        </form>
+    </section>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
